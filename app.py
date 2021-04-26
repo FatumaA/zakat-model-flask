@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import sys
 import joblib
 import traceback
-from knn import loadedModel
+from knn import loadedModel, model_columns
 import pandas as pd
 import numpy as np
 
